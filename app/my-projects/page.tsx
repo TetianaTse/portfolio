@@ -10,7 +10,7 @@ const Page = () => {
             My Work<span className="text-[32px] text-yellow-400">.</span>
           </h1>
           <p className="max-w-[400px] text-[16px] text-gray-200 md:text-gray-400">
-            This section features projects I've created during my web development studies. They reflect my efforts and commitment to improving my skills.
+            This section features projects I&apos;ve created during my web development studies. They reflect my efforts and commitment to improving my skills.
           </p>
         </div>
         <ProjectSlider /> 
