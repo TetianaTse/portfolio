@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 body {
-  background-color: #070431;
+  background-color: #0c011a;
 }
 main {
   background: url("/assets/bg-explosion.png");
@@ -68,7 +68,7 @@ main {
     grid-template-columns: auto;
     justify-items: center;
     align-content: center;
-    margin-left: 2rem;
+    margin-left: 0rem;
     gap: 5rem;
   }
   .skills__title,
@@ -76,6 +76,7 @@ main {
     grid-column: 1 / span 3;
     padding: 0;
     margin-top: 8rem;
+    margin-left: 2rem;
   }
   .swiper {
     grid-column: 1 / span 3;

@@ -17,7 +17,8 @@ interface ServiceItem {
 
 const ServiceSlider = () => {
   return (
-    <div className="swiper col-span-2 max-w-[210px] md:max-w-[650px]">
+    <div className="col-span-3 md:col-span-2">
+    <div className="swiper max-w-[210px] md:max-w-[650px]">
       <Swiper
         breakpoints={{
           767: {
@@ -37,7 +38,7 @@ const ServiceSlider = () => {
       >
 {ServiceData.map((item: ServiceItem) => (
           <SwiperSlide key={item.title}>
-            <div className="rounded-md cursor-pointer flex flex-col gap-2 mb-10 group relative text-white shadow-lg rounde-xl px-6 py-8 h-[270px] max-w-[200px] overflow-hidden">
+            <div className="rounded-md cursor-pointer flex flex-col gap-2 mb-10 group relative text-white shadow-lg rounde-xl px-6 py-8 h-[270px] max-w-[200px]">
               <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{ backgroundImage: `url(${item.backgroundImage})` }}
@@ -57,6 +58,7 @@ const ServiceSlider = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      </div>
     </div>
   );
 };

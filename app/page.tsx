@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="h-screen relative">
+    <main className="h-screen relative bg-[#070431]">
       <div className="absolute right-0 top-0 h-full w-[80%] z-[2]">
         <Particle />
       </div>
