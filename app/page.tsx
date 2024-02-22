@@ -11,12 +11,12 @@ export default function Home() {
         <div className="title flex flex-col">
           <div>
               <h1 className="rubik text-white lg:text-[36px] uppercase">Hi, my name is Tetiana Tsehychko {" "}
-                <span className="text-yellow-400">and I'm a beginner front-end developer</span>
+                <span className="text-yellow-400">and I&apos;m a beginner front-end developer</span>
               </h1>
           </div>
           <div>
               <p className="text-[14px] text-gray-200 mb-5 mt-5 md:text-[16px]">
-              My goal is to create beautiful and user-friendly web interfaces that make users' lives easier and more enjoyable. I strive to improve and enhance my skills to bring the boldest ideas to life. Let's make the web world better together!
+              My goal is to create beautiful and user-friendly web interfaces that make users&apos; lives easier and more enjoyable. I strive to improve and enhance my skills to bring the boldest ideas to life. Let&apos;s make the web world better together!
               </p>
           </div>
           <button className="resume">
