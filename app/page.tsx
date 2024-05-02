@@ -20,7 +20,7 @@ export default function Home() {
               </p>
           </div>
           <button className="resume">
-            <a href="https://drive.google.com/file/d/1XlZ_eneFIsBqFfw4yNy40gmlKeA3znd_/view?usp=sharing" className="resume__link">My resume</a>
+            <a href="https://drive.google.com/file/d/1LKTYRQu2N4o6NnFLQKSh8RauWPSZ2UHL/view?usp=sharing" className="resume__link">My resume</a>
           </button>
         </div>
         <div className="image">
